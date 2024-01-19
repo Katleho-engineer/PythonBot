@@ -1,0 +1,92 @@
+[
+  {
+    "type": "greeting",
+    "user_input": ["hello", "hi", "hey", "hellow", "good morning", "good afternoon", "good day"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "type": "greeting",
+    "user_input": ["see you", "goodbye", "bye", "sharp", "cu", "sharp"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "type": "thanks",
+    "user_input": ["thanks", "thank you", "tnx", "ta"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": []
+  },
+  {
+    "response_type": "mood_check",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking. How are you feeling today?",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "mood_good",
+    "user_input": ["fine", "happy", "great", "good", "well", "amazing", "excited", "elated"],
+    "bot_response": "Happy to hear that! How can I help you today?",
+    "required_words": []
+  },
+  {
+    "response_type": "mood_bad",
+    "user_input": ["bad", "sad", "unhappy", "not good", "not", "angry", "despondent", "depressed"],
+    "bot_response": "Sad to hear that! Go watch a nice movie to cheer you up.",
+    "required_words": []
+  },
+  {
+    "response_type": "everything",
+    "user_input": ["everything", "everything about"],
+    "bot_response": "placeholder",
+    "required_words": []
+  },
+  {
+    "response_type": "definition",
+    "user_input": ["define", "definition", "meaning"],
+    "bot_response": "placeholder",
+    "required_words": []
+  },
+  {
+    "response_type": "partOF",
+    "user_input": ["part of", "part", "of"],
+    "bot_response": "placeholder",
+    "required_words": ["part", "of"]
+  },
+  {
+    "response_type": "example",
+    "user_input": ["use", "sentence"],
+    "bot_response": "placeholder",
+    "required_words": ["use", "sentence"]
+  },
+  {
+    "response_type": "antonym",
+    "user_input": ["antonym", "opposite"],
+    "bot_response": "placeholder",
+    "required_words": ["antonym"]
+  },
+  {
+    "response_type": "pronunciation",
+    "user_input": ["pronunciation", "pronounce"],
+    "bot_response": "placeholder",
+    "required_words": ["pronunciation"]
+  },
+  {
+    "response_type": "syllables",
+    "user_input": ["syllables", "syllable"],
+    "bot_response": "placeholder",
+    "required_words": ["syllables"]
+  },
+  {
+    "response_type": "synonyms",
+    "user_input": ["synonym", "synonyms"],
+    "bot_response": "placeholder",
+    "required_words": ["synonym"]
+  },
+  {
+    "response_type": "help",
+    "user_input": ["help", "help me"],
+    "bot_response": "placeholder",
+    "required_words": ["help"]
+  }
+]
